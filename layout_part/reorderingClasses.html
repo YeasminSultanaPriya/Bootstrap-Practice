@@ -1,0 +1,63 @@
+<h1 class="display-3 text-center my-4">Reordering Classes</h1>
+<!-- reordering or change column positions -->
+<div class="container">
+
+    <div class="row">
+        <div class="col order-last pink">Col 1</div>
+        <div class="col blue">Col 2</div>
+        <div class="col order-first green">Col 3</div>
+        <div class="col orange">Col 4</div>
+    </div><br>
+    <h4>Reordering with break points</h4>
+    <!-- with break points -->
+    <div class="row">
+        <div class="col order-md-last pink">Col 1</div> <!-- reordering will work from md screen -->
+        <div class="col blue">Col 2</div>
+        <div class="col order-md-first green">Col 3</div>
+        <div class="col orange">Col 4</div>
+    </div><br>
+    <h4>reordering with grid number</h4>
+    <!-- reordering with grid numbers -->
+    <div class="row">
+        <div class="col order-2 pink">Col 1</div>
+        <div class="col order-3 blue">Col 2</div>
+        <div class="col order-4 orange">Col 3</div>
+        <div class="col order-1 green">Col 4</div>
+    </div><br>
+    <h4>reordering with grid number and break points</h4>
+    <!-- reordering with grid numbers and break points -->
+    <div class="row">
+        <div class="col order-md-2 pink">Col 1</div>
+        <div class="col order-md-3 blue">Col 2</div>
+        <div class="col order-md-4 orange">Col 3</div>
+        <div class="col order-md-1 green">Col 4</div>
+    </div><br>
+    <div class="row">
+        <div class="col-md-3 order-md-2 pink">Col 1</div>
+        <div class="col-md-2 order-md-3 blue">Col 2</div>
+        <div class="col-md-5 order-md-4 orange">Col 3</div>
+        <div class="col-md-2 order-md-1 green">Col 4</div>
+    </div><br>
+    <div class="row">
+        <div class="col-md-3 order-md-3 order-sm-1 pink">Col 1</div>
+        <div class="col-md-2 order-md-2 order-sm-3 blue">Col 2</div>
+        <div class="col-md-5 order-md-1 order-sm-2 orange">Col 3</div>
+
+    </div><br>
+    <h5>real life use</h5>
+    <div class="row">
+        <div class="col-md-8 order-md-2 pink">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate libero velit veniam eius ducimus.</p>
+        </div>
+        <div class="col-md-4 order-md-1 orange">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Gallery</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div style="margin-top: 50px;"></div>

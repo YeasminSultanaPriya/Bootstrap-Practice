@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- meta=> to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+
+    <!-- CDN Link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Main Style-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<h1 class="display-3 text-center my-4">Margin Classes</h1>
+
+<div class="container">
+    <!-- m-auto(margin center[margin from left-right-top-bottom sides]) -->
+    <div class="row">
+        <div class="col-md-4 m-auto orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, qui!</div>
+        <div class="col-md-3 green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quia.</div>
+    </div><br>
+    <!--  margin-left -->
+    <div class="row">
+        <div class="col-md-3 orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, qui!
+        </div>
+        <div class="col-md-4 ml-auto pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, minus!
+        </div>
+    </div><br>
+
+    <!--  margin-right -->
+    <div class="row">
+        <div class="col-md-3 mr-auto orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, qui!
+        </div>
+        <div class="col-md-4 pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, minus!</div>
+    </div><br>
+    <!--  margin with break points -->
+    <div class="row">
+        <div class="col-md-3 m-lg-auto orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, qui!
+        </div>
+        <div class="col-md-4 pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, minus!</div>
+    </div><br>
+    <!-- margin left,right,top,bottom with size(0-5) -->
+    <div class="row">
+        <div class="col-md-3 mr-1 orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, qui!
+        </div>
+        <div class="col-md-4 mb-2 pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, minus!</div>
+        <div class="col-md-4 m-2 pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, minus!</div>
+    </div><br>
+    <!-- margin left,right,top,bottom with size(0-5) and break point -->
+    <div class="row">
+        <div class="col-md-3 mb-lg-3 orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, qui!
+        </div>
+        <div class="col-md-4 mb-2 pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, minus!</div>
+    </div><br>
+    <!-- negative margin left,right,top,bottom with size(0-5) and break point -->
+    <div class="row">
+        <div class="col-sm-3 mt-lg-n5 orange" id="margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+            qui!
+        </div>
+        <div class="col-sm-4 mt-md-4 green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, minus!
+        </div>
+    </div>
+    <!-- mx=> x-axis margin -->
+    <!-- my=> y-axis margin -->
+    <div class="row">
+        <div class="col-md-4">
+            <div class="mx-5 pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ea.</div>
+        </div>
+        <div class="col-md-4">
+            <div class="my-5 blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ea.</div>
+        </div>
+        <div class="col-md-4 green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, esse!</div>
+    </div>
+
+
+
+</div>
+<div style="margin-top: 50px;"></div>
+
+
+</body>
+
+</html>
